@@ -2,7 +2,9 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Five simple math-games"
-authors = "Alexander"
+authors = [
+    { name = "Alexander" }
+]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
