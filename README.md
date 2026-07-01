@@ -5,7 +5,11 @@
 ### Demonstration
 
 brain-even game: [asciinema](https://asciinema.org/a/5s4xINmhgOvAIqPe)
+
 brain-calc game: [asciinema](https://asciinema.org/a/PqFRajkgW4vyweqF)
+
 brain-gcd game: [asciinema](https://asciinema.org/a/Ooi1vgUjECDU3kIL)
+
 brain-progression game: [asciinema](https://asciinema.org/a/Bg4BF7Pm8981x78C)
+
 brain-prime game: [asciinema](https://asciinema.org/a/SsZs7ZRYKIbp6EcP)
