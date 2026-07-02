@@ -6,17 +6,17 @@ rule = 'What is the result of the expression?'
 
 
 def generate_question_and_correct_answer():
-    number1 = random.randint(1, 99)
-    number2 = random.randint(1, 99)
-    operator = random.choice(['+', '-', '*'])
-    question = f'Question: {number1} {operator} {number2}'
-    match operator:
+    NUMBER1 = random.randint(1, 99)
+    NUMBER2 = random.randint(1, 99)
+    OPERATOR = random.choice(['+', '-', '*'])
+    question = f'Question: {NUMBER1} {OPERATOR} {NUMBER2}'
+    match OPERATOR:
         case '+':
-            correct_answer = number1 + number2
+            correct_answer = NUMBER1 + NUMBER2
         case '-':
-            correct_answer = number1 - number2
+            correct_answer = NUMBER1 - NUMBER2
         case '*':
-            correct_answer = number1 * number2
+            correct_answer = NUMBER1 * NUMBER2
     correct_answer = str(correct_answer)
     return question, correct_answer
 
